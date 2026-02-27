@@ -1,4 +1,4 @@
-# HTML5b
+# Ruby's Nuclear Reactor: Tune!
 
 An HTML5 port of Cary Huang's flash game [BFDIA 5b](http://bfdi.tv/5b/) using only pureJS and HTML5. All gameplay, level creator, and explore features have been fully implemented.
 
