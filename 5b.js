@@ -2183,7 +2183,9 @@ function createImage(base64) {
 	return new Promise((resolve, reject) => {
 		let img = new Image();
 		img.src = base64;
-		if (base64.split(',')[0] == 'data:image/svg+xml;base64') {
+		const svgRegex = /^data:image\/svg\+xml;.*base64,/;
+
+if (svgRegex.test(base64)) {
 			img.onload = () => {
 				let rasterizerCanvas = document.createElement('canvas');
 				rasterizerCanvas.width = img.width*scaleFactor;
