@@ -1,5 +1,7 @@
 # Ruby's Nuclear Reactor: Tune!
 
-An HTML5 port of Cary Huang's flash game [BFDIA 5b](http://bfdi.tv/5b/) using only pureJS and HTML5. All gameplay, level creator, and explore features have been fully implemented.
+Wonder of How a Company Will Ruin Others Company?
+Tune The Detective Invetigating over 30+ Clues and 100 Levels!
+The Game Hopefully will be updated weekly so stay TUNEd!
 
-A lot of the code in here I didn't write. Since actionscript is so similar to javascript; a lot of the code was just copy-pasted from the decompiled swf with some minor reformatting.
+base game by coppersalts
